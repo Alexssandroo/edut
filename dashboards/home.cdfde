@@ -1,0 +1,668 @@
+{
+ "layout": {
+  "title": "home",
+  "rows": [
+   {
+    "id": "95f34063-a8ab-160d-735b-7a550bd3efa2",
+    "type": "LayoutResourceFile",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "resourceFile",
+      "value": "${system:../static/custom/js/material.js}",
+      "type": "ResourceFile"
+     },
+     {
+      "name": "resourceType",
+      "value": "Javascript",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "ca311fb9-c972-9490-80a4-d1b86545b332",
+    "type": "LayoutResourceFile",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "resourceFile",
+      "value": "${system:../static/custom/css/material.css}",
+      "type": "ResourceFile"
+     },
+     {
+      "name": "resourceType",
+      "value": "Css",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "50eb38c1-4b41-1092-3fee-70412b57ed50",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "ee680e77-8431-3b30-31a4-1b18e5431bae",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "50eb38c1-4b41-1092-3fee-70412b57ed50",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3aa8d6bc-6cd5-cc18-7711-750f43ac8d78",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "ee680e77-8431-3b30-31a4-1b18e5431bae",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div class=\"mdl-card\">\n  <div class=\"mdl-card__title\">\n    <h2 class=\"mdl-card__title-text\">Olá seja vem vindo! </h2>\n  </div>\n  <div class=\"mdl-card__media\">\n    <img src=\"../../../static/custom/img/edu.png\" width=\"220\" height=\"140\" border=\"0\" alt=\"\" style=\"padding:20px;\">\n  </div>\n  <div class=\"mdl-card__supporting-text\">\n    Este é o portal de acesso ao Educação Transparente, um projeto de BI com dados abertos da educação.\n  </div>\n  <div class=\"mdl-card__actions\">\n    <a href=\"#\">Saiba mais</a>\n  </div>\n</div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "dab2f15e-0243-58f1-54f1-35ca28b4b082",
+    "type": "LayoutImage",
+    "typeDesc": "Image",
+    "parent": "50eb38c1-4b41-1092-3fee-70412b57ed50",
+    "properties": [
+     {
+      "name": "url",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "160081b3-34f4-970a-cfe5-9240e02fc13c",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "r1",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "mdl-card",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "62c34d26-6b62-cb41-b351-e1e4427bc8df",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "160081b3-34f4-970a-cfe5-9240e02fc13c",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e538ec02-8a2a-c17e-74ae-65ed40d6a9b3",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "62c34d26-6b62-cb41-b351-e1e4427bc8df",
+    "properties": [
+     {
+      "name": "name",
+      "value": "title",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "mdl-card__title",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e6eb23bc-05f2-6770-2b5f-8efff0f52785",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "e538ec02-8a2a-c17e-74ae-65ed40d6a9b3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<h2>Ola Seja bem Vindo!</h2> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "mdl-card__title-text",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "fe0610a4-0209-17b1-3567-9b1b9edf570d",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "62c34d26-6b62-cb41-b351-e1e4427bc8df",
+    "properties": [
+     {
+      "name": "name",
+      "value": "media",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "mdl-card__media",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "4cf378e5-3803-899f-d99f-d27ee1dce657",
+    "type": "LayoutImage",
+    "typeDesc": "Image",
+    "parent": "fe0610a4-0209-17b1-3567-9b1b9edf570d",
+    "properties": [
+     {
+      "name": "url",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "6c455404-541f-5473-19ad-1520b2b0ac7a",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "62c34d26-6b62-cb41-b351-e1e4427bc8df",
+    "properties": [
+     {
+      "name": "name",
+      "value": "text",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "mdl-card__supporting-text",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a61a53a3-d3cf-47a7-a201-5d15d2d137a9",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "6c455404-541f-5473-19ad-1520b2b0ac7a",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Este e o portal de acesso ao Educacao transparente, um projeto de BI com dados abertos. ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "1d945edc-b66b-1340-899b-deb26de41b7f",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "62c34d26-6b62-cb41-b351-e1e4427bc8df",
+    "properties": [
+     {
+      "name": "name",
+      "value": "actions",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "mdl-card__actions",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "26af7240-a533-eb05-fea6-616458c42ca0",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "1d945edc-b66b-1340-899b-deb26de41b7f",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<a>Saiba mais</a> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   }
+  ]
+ },
+ "components": {
+  "rows": []
+ },
+ "datasources": {
+  "rows": [
+   {
+    "id": "SQL",
+    "name": "SQL Queries",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "SQL Queries",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "0a56c773-c21a-33cb-c9aa-716d1c31731a",
+    "type": "Componentssql_sqlJndi",
+    "typeDesc": "sql over sqlJndi",
+    "meta": "CDA",
+    "meta_conntype": "sql.jndi",
+    "meta_datype": "sql",
+    "parent": "SQL",
+    "properties": [
+     {
+      "name": "name",
+      "value": "dummy",
+      "type": "Id"
+     },
+     {
+      "name": "access",
+      "value": "public",
+      "type": "Access"
+     },
+     {
+      "name": "jndi",
+      "value": "",
+      "type": "Jndi"
+     },
+     {
+      "name": "query",
+      "value": "",
+      "type": "SqlQuery"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "CdaParameters"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "value": "[]",
+      "type": "CdaCalculatedColumnsArray"
+     },
+     {
+      "name": "cdacolumns",
+      "value": "[]",
+      "type": "CdaColumnsArray"
+     },
+     {
+      "name": "output",
+      "value": "[]",
+      "type": "IndexArray"
+     },
+     {
+      "name": "outputMode",
+      "value": "include",
+      "type": "OutputMode"
+     },
+     {
+      "name": "cacheKeys",
+      "value": "[]",
+      "type": "CacheKeysValues"
+     },
+     {
+      "name": "cacheDuration",
+      "value": 3600,
+      "type": "Integer"
+     },
+     {
+      "name": "cache",
+      "value": "true",
+      "type": "Boolean"
+     }
+    ]
+   }
+  ]
+ },
+ "filename": "/system/edut/dashboards/home.cdfde"
+}
