@@ -3,29 +3,6 @@
   "title": "home",
   "rows": [
    {
-    "id": "95f34063-a8ab-160d-735b-7a550bd3efa2",
-    "type": "LayoutResourceFile",
-    "typeDesc": "Resource",
-    "parent": "UnIqEiD",
-    "properties": [
-     {
-      "name": "name",
-      "value": "",
-      "type": "Id"
-     },
-     {
-      "name": "resourceFile",
-      "value": "${system:../static/custom/js/material.js}",
-      "type": "ResourceFile"
-     },
-     {
-      "name": "resourceType",
-      "value": "Javascript",
-      "type": "Label"
-     }
-    ]
-   },
-   {
     "id": "ca311fb9-c972-9490-80a4-d1b86545b332",
     "type": "LayoutResourceFile",
     "typeDesc": "Resource",
