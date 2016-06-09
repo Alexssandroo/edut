@@ -57,6 +57,16 @@
       "type": "CdaParameters"
      },
      {
+      "name": "cdacalculatedcolumns",
+      "value": "[]",
+      "type": "CdaCalculatedColumnsArray"
+     },
+     {
+      "name": "cdacolumns",
+      "value": "[]",
+      "type": "CdaColumnsArray"
+     },
+     {
       "name": "output",
       "value": "[]",
       "type": "IndexArray"
@@ -67,14 +77,9 @@
       "type": "OutputMode"
      },
      {
-      "name": "cdacolumns",
+      "name": "cacheKeys",
       "value": "[]",
-      "type": "CdaColumnsArray"
-     },
-     {
-      "name": "cdacalculatedcolumns",
-      "value": "[]",
-      "type": "CdaCalculatedColumnsArray"
+      "type": "CacheKeysValues"
      },
      {
       "name": "cacheDuration",
@@ -90,5 +95,5 @@
    }
   ]
  },
- "filename": "file:///opt/pentaho/biserver-ce/pentaho-solutions/system/edut/dashboards/reports.cdfde"
+ "filename": "/system/edut/dashboards/reports.cdfde"
 }
