@@ -1,7 +1,102 @@
 {
  "layout": {
   "title": "olap",
-  "rows": []
+  "rows": [
+   {
+    "id": "f510e39a-35e9-c441-9d27-9f9d5466fcb4",
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "iframe_responsive",
+      "type": "Id"
+     },
+     {
+      "name": "resourceCode",
+      "value": ".i_wrapper         {width:100%;height:100%;margin:0 auto;background:#FFF}\n.h_iframe        {position:relative;}\n.h_iframe .ratio {display:block;width:100%;height:auto;}\n.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}\n ",
+      "type": "Resource"
+     },
+     {
+      "name": "resourceType",
+      "value": "Css",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "ce0facac-c5de-9e79-9d02-b98b9812981d",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "ca0ace24-386a-3094-46d4-e6e59e5967a0",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "ce0facac-c5de-9e79-9d02-b98b9812981d",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div class=\"i_wrapper\">\n    <div class=\"h_iframe\">\n        <img class=\"ratio\" src=\"#\"/>\n        <iframe src=\"../../../content/saiku-ui/index.html?biplugin5=true\" frameborder=\"0\" allowfullscreen></iframe>\n    </div>\n</div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   }
+  ]
  },
  "components": {
   "rows": []
