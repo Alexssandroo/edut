@@ -1,0 +1,40 @@
+<Schema name="edut">
+  <Cube name="edut" caption="Educacao Transparente" visible="true" cache="true" enabled="true">
+    <Table name="edut_fact" schema="public">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="pk_cod_entidade" highCardinality="false" name="regiao">
+      <Hierarchy visible="true" hasAll="true" primaryKey="pk_cod_entidade">
+        <Table name="dim_escola" schema="public">
+        </Table>
+        <Level name="estado" visible="true" column="uf" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Estado">
+        </Level>
+        <Level name="municipio" visible="true" column="municipio" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Municipio">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="pk_cod_entidade" highCardinality="false" name="escola" caption="Escola">
+      <Hierarchy visible="true" hasAll="true" primaryKey="pk_cod_entidade">
+        <Table name="dim_escola" schema="public">
+        </Table>
+        <Level name="localizacao" visible="true" column="localizacao" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Localizacao">
+        </Level>
+        <Level name="dependencia" visible="true" column="dependencia_administrativa" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Dependencia Adm.">
+        </Level>
+        <Level name="escola" visible="true" column="nome_escola" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Escola">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="TimeDimension" visible="true" foreignKey="id_prova_brasil" highCardinality="false" name="tempo" caption="Tempo">
+      <Hierarchy visible="true" hasAll="true" primaryKey="year">
+        <Table name="dim_tempo" schema="public">
+        </Table>
+        <Level name="ano" visible="true" column="ano" type="Integer" uniqueMembers="true" levelType="TimeYears" hideMemberIf="Never" caption="Ano">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="nt_port" column="nu_media_port" datatype="Numeric" aggregator="avg" caption="Nota Portugues" visible="true">
+    </Measure>
+    <Measure name="nt_mat" column="nu_media_mat" datatype="Numeric" aggregator="avg" caption="Nota Matematica" visible="true">
+    </Measure>
+  </Cube>
+</Schema>
