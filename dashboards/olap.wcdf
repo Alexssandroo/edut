@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdf><title>olap</title><description>acesso ao Saiku</description><author>@alexssandroos</author><style>material - (edut)</style><rendererType>bootstrap</rendererType><require>false</require><widget>false</widget><widgetName></widgetName><widgetParameters></widgetParameters></cdf>
+<cdf><title>olap</title><description>acesso ao Saiku</description><author>@alexssandroos</author><style>material - (edut)</style><rendererType>blueprint</rendererType><require>false</require><widget>false</widget><widgetName></widgetName><widgetParameters></widgetParameters></cdf>
